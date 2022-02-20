@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.navbar img{
+     transition: transform 0.5s;
+}
+.navbar img:hover{
+    transform: translateY(-5px);
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.5s;
+}
+nav ul li:hover{
+    transform: translateY(-5px);
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: darkseagreen;
+}
+p{
+    font-size: 25px;
+    color:darkslategrey;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    height: 700px;
+    width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin: 25px 0;
+    color: darkseagreen;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background: olive;
+    color: whitesmoke;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition:  background 0.5s;
+}
+.btn:hover{
+    background: darkslategrey;
+}
+.header{
+    background: radial-gradient(white,lightyellow);
+}
+.categories{
+    margin: 25px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    text-align: center;
+    text-decoration: underline;
+    line-height: 100px;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col-3 h3{
+    text-decoration: underline;
+    color: darkseagreen;
+    line-height: 10px;
+    
+}
+.col-3:hover{
+    transform: translateY(-10px);
+}
+.small-container2{
+    text-align: left;
+    text-decoration: none;
+    line-height: 20px;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    line-height: 100px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 150px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+    min-height: 400px;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    text-decoration: none;
+    font-size: 14px;
+}
+.rating .fa{
+    color: gold;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    background: olive;
+    color: whitesmoke;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition:  background 0.5s;
+}
+.button:hover{
+    background: darkslategrey;
+}
+/*-----------footer------------*/
+
+.footer{
+    background: lightyellow;
+    color: darkseagreen;
+    font-size: 14px;
+    padding: 60px 0 200px;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 20px;
+    color: darkseagreen;
+}
+.footer h3{
+    color: darkslategrey;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+}
+.footer-col-4{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-4 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-2, .footer-col-3 {
+    flex-basis: 12%;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+    height: 40px;
+}
+.footer hr{
+    border: none;
+    background: darkslategrey;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+}
+/*----------account-page---------*/
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(white,lightyellow);
+}
+.form-container{
+    background: white;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: darkslategrey;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+.form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid black;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    }
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form p{
+    font-size: 12px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: darkseagreen ;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+/*-------------cart items--------------*/
+
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: darkslategrey;
+    background: lightyellow;
+    font-weight: normal;
+    font-size: 20px;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a {
+    font-size: 15px;
+    padding: 10px;
+}
+td p{
+    font-size: 20px;
+    padding: 10px;
+}
+td img{
+    max-height: 130px;
+    min-width: 130px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 7px solid lightyellow;
+    width: 100%;
+    max-width: 370px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
